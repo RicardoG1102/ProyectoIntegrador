@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylehtml.css">
+    <link rel="icon" href="port.png" type="image/png" sizes="16x16">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Mi Sitio Web</title>
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="tittle" id="tittle">Portafolio</h1>
+        <nav class="navbar" id="navbar">
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Acerca de mi</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#portafolio">Portafolio</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <img class="logo" src="logo33.png" alt="logopers" width="150px" height="120px">
+    </header>
+
+    <section id="home">
+        <div>
+            <h3>Bienvenidos, mi nombre es</h3>
+            <h2 class="name" id="name">Ricardo Gonzalez</h2>
+            <h3>y soy
+                <span class="multiple-text"> Desarrollador web full stack</span>
+                <span class="typed-cursor" aria-hidden="true"></span>
+                <p>Un apasionado desarrollador web full stack con un enfoque en la creación de experiencias digitales
+                    excepcionales. A través de este portafolio, te invito a explorar algunos de mis proyectos más
+                    destacados y conocer más sobre mi experiencia y habilidades en el mundo del desarrollo web.</p>
+            </h3>
+        </div>
+        <div class="yo" id="yo">
+            <img class="foto" src="yo2.png" alt="yomismo" width="300px" height="300px">
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="text" id="text">
+            <h2 class="sobremi" id="sobremi">Acerca de mi</h2>
+            <span class="typed-cursor" aria-hidden="true"></span>
+            <h3 class="job" id="job">¡Desarrollador web full stack!</h3>
+            <p>Soy un apasionado por la tecnología y el desarrollo web. Mi objetivo es crear aplicaciones web de alto
+                rendimiento y sitios web atractivos que cumplan con los estándares más exigentes. Mi amor por el
+                aprendizaje constante y la resolución de problemas me motiva a seguir mejorando mis habilidades y
+                conocimientos. 
+
+                habilidades tecnicas como JavaScript,
+                React,
+                Node.js,
+                HTML/CSS,
+                MongoDB,
+                Git,
+                AWS,
+            </p>
+        </div>
+        <div class="stack" id="stack">
+            <img class="full" src="fullstack.jpg" alt="fullstack" width="300px" height="300px">
+        </div>
+    </section>
+
+    <section id="servicios">
+        <div>
+            <h2 class="servi" id="servi">Servicios</h2>
+        </div>
+        <div class="boxtext" id="boxtext">
+            <div class="box1" id="box1">
+                <img class="loghtml" src="html-5.png" alt="loghtml">
+                <h2>Desarollo web</h2>
+                <p class="deweb" id="deweb">Diseñé y desarrollé una tienda en línea utilizando HTML, CSS, y JavaScript.
+                    Integré pasarelas de pago seguras y un sistema de gestión de inventario.
+                    Resultado: Aumento del 50% en las ventas y una experiencia de compra mejorada para los clientes.</p>
+            </div>
+            <div class="box2" id="box2">
+                <img class="logcss" src="css-3.png" alt="logcss">
+                <h2>Desarollo FrontEnd</h2>
+                <p class="defront" id="defront">Diseñé y desarrollé una tienda en línea utilizando HTML, CSS, y JavaScript.
+                    Integré pasarelas de pago seguras y un sistema de gestión de inventario.
+                    Resultado: Aumento del 50% en las ventas y una experiencia de compra mejorada para los clientes.</p>
+            </div>
+            <div class="box3" id="box3">
+                <img class="logcod" src="codificacion.png" alt="logcod">
+                <h2>Desarollo Backend</h2>
+                <p class="deback" id="deback">Desarrollé una plataforma educativa en línea desde cero utilizando Django y React.
+                    Integré un sistema de autenticación seguro y un panel de control de administrador.
+                    Resultado: Más de 10,000 usuarios registrados y una mejora del 30% en el compromiso del usuario.</p>
+            </div>
+        </div>
+    </section>
+    <section id="portafolio">
+        <div>
+            <h2 class="project" id="project">Proyectos</h2>
+        </div>
+        <div class="boxproject" id="boxproject">
+            <div class="boxproject1" id="boxproject1">
+                <img class="loghtml" src="proyecto.png" alt="loghtml">
+                <a href="#calculator">
+                    <h2 class="proyect1tittle" id="proyect1tittle">Calculadora</h2>
+                </a>
+            </div>
+            <div class="boxproject2" id="boxproject2">
+                <img class="logcss" src="proyecto.png" alt="logcss">
+                <a href="#home">
+                    <h2 class="proyect2tittle" id="proyect2tittle">Proyecto 2</h2>
+                </a>
+            </div>
+            <div class="boxproject3" id="boxproject3">
+                <img class="logcod" src="proyecto.png" alt="logcod">
+                <a href="#home">
+                    <h2 class="proyect3tittle" id="proyect3tittle">Proyecto 3</h2>
+                </a>
+            </div>
+    </section>
+    <section id="projectcalculator">
+        <div id="boxcal">
+            <div>
+                <h2 class="namecalculator" id="namecalculator">Calculadora</h2>
+            </div>
+            <div class="calculator" id="calculator">
+                <input  id="number1" placeholder="Número 1" type="number">
+                <input id="number2" placeholder="Número 2" type="number">
+                <p id="result" class="result">Este es el resultado</p>
+               <div class="botones" id="botones">
+                <button id="Sum" >Suma</button>
+                <button id="Rest" >Resta</button>
+                <button id="Mul" >Multiplicación</button>
+                <button id="Divi" >División</button>
+            </div>
+               </div>
+                
+        </div>    
+    </section>
+    <section id="contacto">
+        <div>
+            <h2 class="textform" id="textform">Formulario de Contacto</h2>
+        </div>
+        <div class="form" id="form">
+            <form >
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Pon tu nombre acá" required>
+
+                <label for="correo">Correo Electrónico:</label>
+                <input type="email" id="correo" name="correo" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="2" placeholder="Escribe tu texto aquí"></textarea>
+            </form>
+            <div class="btn" id="btn">
+                <button  class="button"> Enviar</button>
+            </div>
+        </div>
+
+
+    </section>
+
+    <footer class="footer" id="footer">
+        <div>
+            <p class="foot">&copy; 2023 Mi Sitio Web. Todos los derechos reservados.</p>
+        </div>
+        <div class="redes-container" id="redes-container">
+            <ul>
+                <li><a href="https://www.facebook.com/rikardo.gonzalez11?mibextid=ZbWKwL" class="facebook"> <i class="fab fa-facebook"></i></a></li>
+                <li><a href="https://instagram.com/rikardo1102?utm_source=qr&igshid=MzNlNGNkZWQ4Mg==" class="Instagram"> <i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/ricardo-gonz%C3%A1lez-93b547107" class="linkedin"> <i class="fab fa-linkedin"></i></a></li>
+                <li><a href="https://github.com/RicardoG1102" class="github"> <i class="fab fa-github"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
